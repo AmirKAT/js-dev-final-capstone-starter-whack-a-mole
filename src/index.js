@@ -8,7 +8,7 @@ const gameMusic = new Audio("https://github.com/AmirKAT/js-dev-final-capstone-st
 
 let time = 0;
 let timer;
-let lastHole = null; // Changed from 0 to null
+let lastHole = null;
 let points = 0;
 let difficulty = "hard";
 
