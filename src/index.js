@@ -3,8 +3,8 @@ const moles = document.querySelectorAll(".mole");
 const startButton = document.querySelector("#start");
 const score = document.querySelector("#score");
 const timerDisplay = document.querySelector("#timer");
-const whackSound = new Audio('./assets/hit.mp3');
-const gameMusic = new Audio('./assets/mariosong.mp3')
+const whackSound = new Audio("/assets/hit.mp3");
+const gameMusic = new Audio("/assets/mariosong.mp3")
 
 let time = 0;
 let timer;
